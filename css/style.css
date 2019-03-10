@@ -1,3 +1,9 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .main-title {
     display: flex;
     text-align: center;
@@ -5,8 +11,8 @@
     
 }
 
-body {
-    font-family: 'Heebo', sans-serif;
+.main-header {
+    padding-bottom: 20px;
 }
 
 .title-s {
@@ -37,4 +43,37 @@ body {
     padding: 9px 12px;
     font-size: 15px;
     font-weight: 500;
+}
+
+.img-m {
+    background-image: url('../img/mens_outerwear.jpg');
+    background-position: 0% 50%;
+    background-size: cover;
+    height: 45vh;
+    left: 171px;
+    right: 171px;
+    position: absolute;
+}
+
+.container-1 {
+    position: relative;
+}
+
+.img-title-m {
+    position: absolute;
+    top: 311px;
+    left: 800px;
+
+}
+
+.img-title-m h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 32px 0;
+}
+
+.sn {
+   border: 2.5px solid black;
+   text-align: center;
+   font-size: 13px;
 }
