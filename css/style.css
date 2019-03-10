@@ -45,24 +45,33 @@ body {
     font-weight: 500;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
 .img-m {
     background-image: url('../img/mens_outerwear.jpg');
     background-position: 0% 50%;
     background-size: cover;
     height: 45vh;
-    left: 171px;
-    right: 171px;
-    position: absolute;
+    
+    
 }
 
 .container-1 {
-    position: relative;
+    padding-left: 171px;
+    padding-right: 171px;
+    padding-bottom: 50px;
 }
 
 .img-title-m {
-    position: absolute;
+    
     top: 311px;
     left: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -70,10 +79,103 @@ body {
     font-size: 19px;
     font-weight: 500;
     margin: 32px 0;
+    text-align: center;
+}
+
+.for-flex {
+    display: flex;
+    justify-content: center;
 }
 
 .sn {
    border: 2.5px solid black;
    text-align: center;
    font-size: 13px;
+   height: 43px;
+    width: 123px;
 }
+
+.img-f {
+    background-image: url('../img/ladies_outerwear.jpg');
+    background-position: 0% 50%;
+    background-size: cover;
+    height: 45vh;
+}
+
+.container-2 {
+    padding-left: 171px;
+    padding-right: 171px;
+    padding-bottom: 50px;
+}
+
+.img-title-f {
+    top: 311px;
+    left: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.img-title-f h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 32px 0;
+    text-align: center;
+}
+
+
+.box2 {
+    display: flex;
+    padding-left: 171px;
+    padding-right: 171px;
+    padding-bottom: 30px;
+}
+
+.mts-img {
+    background-image: url(../img/mens_tshirts.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 45vh;
+    width: 713px;
+}
+
+.mts-title {
+    top: 311px;
+    left: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mts-title h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 32px 0;
+    text-align: center;
+}
+
+
+.lts-img {
+    background-image: url(../img/ladies_tshirts.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 45vh;
+    width: 713px;
+}
+
+.lts-title {
+    top: 311px;
+    left: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lts-title h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 32px 0;
+    text-align: center;
+}
+
