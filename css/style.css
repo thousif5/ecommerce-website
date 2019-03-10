@@ -1,0 +1,40 @@
+.main-title {
+    display: flex;
+    text-align: center;
+
+    
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.title-s {
+    
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    flex: 1;
+}
+
+.title-s h2 {
+    padding-left: 0px;
+}
+
+.icon {
+    width: 40px;
+    right: 0px; 
+    top: 0px;  
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu div {
+    padding: 9px 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
