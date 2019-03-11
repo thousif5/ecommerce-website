@@ -49,8 +49,12 @@ input {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    
     padding-top: 20px;
+}
+
+.title-c {
+   text-align: center;
 }
 
 .form-arrangement {
@@ -65,9 +69,20 @@ input {
     justify-content: center;
 }
 
+.ship label {
+    text-align: left;
+}
+
 .info h4 {
     text-align: left;
 }
+
+.postal {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
 
 
 
@@ -118,4 +133,45 @@ input {
 .order-details p {
   text-align: left;
 }
+
+.billing {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bill {
+    display: flex;
+    justify-content: center;
+}
+
+.billing-title {
+    align-self: center;
+    height : 58px;
+    width: 21.15%;
+}
+
+.billing-title h4 {
+    text-align: left;
+    
+}
+
+.billing-space {
+    width: 21.15%;
+}
+
+.chkbox {
+    display: inline;
+    
+    padding-left: 507px;
+    
+}
+
+.chkbox input {
+    height: 15px;
+    width: 15px;
+}
+
+
+
 
