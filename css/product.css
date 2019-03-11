@@ -4,6 +4,14 @@ body {
     padding-right: 30px;
 }
 
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
 .main-title {
     display: flex;
     text-align: center;
