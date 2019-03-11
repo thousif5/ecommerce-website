@@ -1,0 +1,121 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-title {
+    display: flex;
+    text-align: center;
+
+    
+}
+
+.main-header {
+    padding-bottom: 20px;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+.title-s {
+    
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    flex: 1;
+}
+
+.title-s h2 {
+    padding-left: 37px;
+}
+
+.icon {
+    width: 40px;
+    right: 0px; 
+    top: 0px;  
+}
+
+input {
+    border: none;
+    width: 100%;
+    height: 50px;
+    
+    border-bottom: 1px solid #ccc;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form-arrangement {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+.info {
+    padding-right: 30px;
+    justify-content: center;
+}
+
+.info h4 {
+    text-align: left;
+}
+
+
+
+.ship select {
+    padding: 8px 24px 8px 0;
+    width: 100%
+}
+
+.payment h4 {
+    text-align: left;
+}
+
+.card-exp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-exp select {
+    padding: 8px 24px 8px 0;
+    width: 100%
+}
+
+.expiry {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.cvv input {
+    height: 40px;
+}
+
+.place-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.po{
+    text-align: center;
+    border: 2.5px solid black;
+    font-size: 12px;
+    height: 50px;
+    width: 50%;
+    
+}
+
+.order-details p {
+  text-align: left;
+}
+

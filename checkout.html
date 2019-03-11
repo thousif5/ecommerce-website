@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Checkout - SHOP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/checkout.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-title">
+            <div class="title-s">
+                <h2>SHOP</h1>
+            </div>
+            <div class="icon">
+                <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+            </div>
+        </div>
+       
+    </header>
+
+    <div class="forms">
+            <div class="title">
+                    <h3>Checkout</h3>
+            </div>
+            
+            <div class="form-arrangement">
+        <div class="info">
+            
+            <h4>Account Information</h4>
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Phone Number">
+            <h4>Shipping Address</h4>
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="City">
+            <div class="postal">
+                <div>
+                    <input type="text" placeholder="State/Province">
+                </div>
+                <div>
+                    <input type="text" placeholder="Zip/Postal Code">
+                </div>
+    
+            </div>
+            <div class="ship">
+            <label id="country">
+               Country
+            </label>
+            <select id="ShipCountry">
+                <option selected>
+                        India
+                </option>
+                <option>
+                        United States
+                </option>
+            </select>
+        </div>
+        </div>
+        <div class="payment">
+         <h4>Payment Method</h4>
+         <input type="text" placeholder="Cardholder Name">
+            <input class="for-pad" type="text" placeholder="Card Number">
+            <div class="expiry">
+                <label id="ex">
+                    Expiry
+                </label>
+                <div class="card-exp">
+                    <div class="month">
+                <select id="exp-month">
+                    <option selected>
+                        Jan
+                    </option>
+                    <option>
+                        Feb
+                    </option>
+                </select>
+            </div>
+            <div class="year">
+                <select id="exp-year">
+                <option selected>
+                    2019
+                </option>
+                <option>
+                    2020
+                </option>
+            </select>
+            </div>
+            <div class="cvv">
+                <input type="text" placeholder="CVV">
+            </div>
+            </div>
+            </div>
+            <div class="order-summary">
+                <h4>Order Summary</h4>
+                <div class="order-details">
+                    <p>Total</p>
+                </div>
+            </div>
+            <div class="place-order">
+                <div class="po">
+                <h3>PLACE ORDER</h3>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</body>
+</html>
