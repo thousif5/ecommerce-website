@@ -142,42 +142,9 @@ input {
   text-align: left;
 }
 
-.billing {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.bill {
-    display: flex;
-    justify-content: center;
-}
-
-.billing-title {
-    align-self: center;
-    height : 58px;
-    width: 21.15%;
-}
-
-.billing-title h4 {
-    text-align: left;
-    
-}
-
-.billing-space {
-    width: 21.15%;
-}
-
-.chkbox {
-    display: inline;
-    
-    padding-left: 507px;
-    
-}
-
-.chkbox input {
-    height: 15px;
-    width: 15px;
+.billing input {
+    height: 13px;
+    width: 13px;
 }
 
 select {
@@ -228,6 +195,7 @@ select {
       font-size: 9px;
       height: 35px;
     width: 37%;
+    
   }
 }
 
