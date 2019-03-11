@@ -51,12 +51,8 @@ body {
 }
 
 .img-m {
-    background-image: url('../img/mens_outerwear.jpg');
-    background-position: 0% 50%;
-    background-size: cover;
+    object-fit: cover;
     height: 45vh;
-    
-    
 }
 
 .container-1 {
@@ -96,9 +92,7 @@ body {
 }
 
 .img-f {
-    background-image: url('../img/ladies_outerwear.jpg');
-    background-position: 0% 50%;
-    background-size: cover;
+    object-fit: cover;
     height: 45vh;
 }
 
@@ -132,12 +126,16 @@ body {
     padding-bottom: 30px;
 }
 
-.mts-img {
-    background-image: url(../img/mens_tshirts.jpg);
-    background-position: 50% 0%;
-    background-size: cover;
+.mts-img img {
+    object-position: 50% 0%;
+    object-fit: cover;
     height: 45vh;
     width: 713px;
+}
+
+.mts-img {
+    
+    
 }
 
 .mts-title {
@@ -156,12 +154,15 @@ body {
 }
 
 
-.lts-img {
-    background-image: url(../img/ladies_tshirts.jpg);
-    background-position: 50% 0%;
-    background-size: cover;
+.lts-img img {
+    object-fit: cover;
     height: 45vh;
     width: 713px;
+    
+}
+
+.lts-img {
+
 }
 
 .lts-title {
