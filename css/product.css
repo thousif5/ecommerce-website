@@ -1,0 +1,82 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-title {
+    display: flex;
+    text-align: center;
+
+    
+}
+
+.main-header {
+    padding-bottom: 20px;
+}
+
+.title-s {
+    
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    flex: 1;
+}
+
+.title-s h2 {
+    padding-left: 0px;
+}
+
+.icon {
+    width: 40px;
+    right: 0px; 
+    top: 0px;  
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu div {
+    padding: 9px 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header {
+    padding-bottom: 40px;
+}
+
+.product-details {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+
+.details {
+    width: 35%;
+}
+
+.des {
+    height: 100%;
+    width: 64%;
+}
+
+.cart {
+    display: flex;
+    justify-content: flex-start;
+}
+.for-border {
+    height: 60px;
+    width: 169px;
+    border: 2.5px solid black;
+    display: flex;
+    justify-content: center;
+}
