@@ -58,6 +58,10 @@ body {
     width: 35%;
 }
 
+img {
+    height: 67vh;
+}
+
 .details {
     font-weight: 500;
     
