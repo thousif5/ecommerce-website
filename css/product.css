@@ -64,11 +64,11 @@ a:link {
 .product {
     display: flex;
     justify-content: center;
-    width: 35%;
+    width: 50%;
 }
 
 img {
-    height: 50vh;
+    width: 110%;
 }
 
 .details {
@@ -176,7 +176,7 @@ select {
       }
 
       img {
-        height: 46vh;
+        width: 100%;
         object-fit: cover;
       }
 
