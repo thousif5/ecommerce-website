@@ -4,10 +4,6 @@ body {
     padding-right: 30px;
 }
 
-input:focus::-webkit-input-placeholder { color:transparent; }
-input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
-input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
-input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 a {
     color: black;
@@ -52,9 +48,9 @@ header {
 
 input {
     border: none;
-    width: 100%;
+    width: 95%;
     height: 50px;
-    
+    outline: none;
     border-bottom: 1px solid #ccc;
 }
 
@@ -74,8 +70,57 @@ input {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    height: 100%;
     
 }
+
+.for-div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+/*---for animation---*/
+
+/* .box {
+    position: absolute;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box label {
+    position: absolute;
+    top: 30px;
+    color: transparent;
+    font-size: 15px;
+}
+
+.box input:focus~label {
+    position: absolute;
+   top: -10px;
+   color: black;
+}
+
+.divider {
+    height: 0px;
+    width: 0px;
+    align-self: center;
+    transition: 0.3s;
+}
+
+.box:focus-within .divider {
+    width: 100%;
+    height: 2.5px;
+    background-color: black;
+}
+
+.box input:focus {
+    border: none;
+} */
+
+/*-------------------*/
 
 /* .form-input {
     position: relative;
@@ -91,9 +136,100 @@ input {
     }
   } */
 
+ .ani {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .divider {
+    width: 0;
+    height: 2.5px;
+    align-self: center;
+    transition: 0.3s;
+    background-color: transparent;
+    position: relative;
+    top: -23px;
+    right: 12px;
+
+ }
+ 
+
+  .ani input:focus~label {
+    position: relative;
+   top: -4rem;
+   color: black;
+}
+
+.ani label {
+  color: transparent;
+  top: -2.7rem;
+  transition: 15ms;
+  position: relative;
+  font-size: 14px;
+}
+
+.postal .ani:focus-within .divider{
+    width: 94%;
+    height: 2.5px;
+    background-color: black;
+    right: 7.5px;
+}
+
+.ani:focus-within .divider{
+    width: 95%;
+    height: 2.5px;
+    background-color: black;
+}
+
+.ani input:focus-within::placeholder {
+    color: transparent;
+    
+}
+
 .info {
+    width: 50%;
+    display: flex;
     padding-right: 30px;
     justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.payment {
+    width: 50%;
+    height: 100%;
+}
+
+.qwe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 460px;
+    height: 100%;
+}
+
+.asd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 460px;
+    height: 100%;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    height: 208px;
+}
+
+.acc {
+    display: grid;
+    
+    /* flex-direction: column; */
+}
+
+.box {
+    grid: 1;
 }
 
 .ship label {
@@ -104,10 +240,17 @@ input {
     text-align: left;
 }
 
+.zxcv {
+    padding-top: 40px;
+    
+}
+
+
 .postal {
     display: flex;
     padding-bottom: 20px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    padding-top: 20px;
 }
 
 
@@ -217,6 +360,7 @@ select {
     
   }
 }
+
 
 
 
