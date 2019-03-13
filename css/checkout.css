@@ -168,6 +168,8 @@ input {
   font-size: 14px;
 }
 
+
+
 .postal .ani:focus-within .divider{
     width: 94%;
     height: 2.5px;
@@ -184,6 +186,24 @@ input {
 .ani input:focus-within::placeholder {
     color: transparent;
     
+}
+
+.month-y {
+    display: flex;
+    justify-content: space-between;
+}
+
+.for-padding {
+    padding-left: 45px;
+}
+
+.card-exp .month-y .ani .divider {
+   top: 0px;
+   left: 1.5px;
+}
+
+.card-exp .ani select {
+    outline: none;
 }
 
 .info {
@@ -245,6 +265,23 @@ input {
     
 }
 
+.mnbv {
+    padding-top: 40px;
+
+}
+
+.mnbv .divider {
+    top: 0px;
+    right: 0px;
+    width: 94%;
+    outline: none;
+}
+
+.normal .ani label {
+    top: 10px;
+    color: black;
+    font-size: 16px;
+}
 
 .postal {
     display: flex;
@@ -258,7 +295,7 @@ input {
 
 .ship select {
     padding: 8px 24px 8px 0;
-    width: 100%
+    width: 95%
 }
 
 .payment h4 {
@@ -269,6 +306,7 @@ input {
     display: flex;
     justify-content: space-between;
 }
+
 
 .card-exp select {
     padding: 8px 24px 8px 0;
