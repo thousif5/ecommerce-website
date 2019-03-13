@@ -140,6 +140,10 @@ select {
     width: 82%;
 }
 
+.fixed {
+    display: none;
+}
+
 @media only screen and (min-width: 180px) and (max-width: 800px) {
     body {
         padding-left: 0px;
@@ -214,6 +218,34 @@ select {
       .cart-box h5 {
           font-size: 12px;
       }
+
+      .cart {
+          display: none;
+      }
+
+      .fixed {
+        display: block;
+    }
+
+    .a-t-c {
+        width: 100%;
+        background-color: navy;
+        color: white;
+        height: 64px;
+    }
+
+    .fixed  button {
+        width: 100%;
+        left: 0;
+        position: fixed;
+        padding-left: -10px;
+        padding-right: -10px;
+        bottom: 0;
+    }
+
+    .product-details {
+        padding-bottom: 64px;
+    }
 
       
 }

@@ -357,6 +357,10 @@ select {
     cursor: pointer;
 }
 
+.fixed {
+    display: none;
+}
+
 
 @media only screen and (min-width: 180px) and (max-width: 1024px) {
   
@@ -422,6 +426,34 @@ select {
 
     .cvv {
         padding-left: 43px;
+    }
+
+    .place-order {
+        display: none;
+    }
+
+    .p-order {
+        width: 100%;
+        background-color: navy;
+        color: white;
+        height: 64px;
+    }
+    
+    .fixed  button {
+        width: 100%;
+        left: 0;
+        position: fixed;
+        padding-left: -10px;
+        padding-right: -10px;
+        bottom: 0;
+    }
+
+    .forms {
+        padding-bottom: 64px;
+    }
+
+    .fixed {
+        display: block;
     }
 
   
