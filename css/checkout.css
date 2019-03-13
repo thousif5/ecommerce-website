@@ -358,45 +358,73 @@ select {
 }
 
 
-@media only screen and (min-width: 180px) and (max-width: 800px) {
-  .chkbox {
-    padding-left: 0px;
-    font-size: small;
-  }
-
-  .form-arrangement {
-      flex-direction: column;
-      padding-top: 0px;
-  }
-
-  .billing-space {
-      display: none;
-  }
-
-  .billing-title {
-    width: 97.15%;
-    font-size: small;
-  }
-
-  .forms {
-      padding-top: 0px;
-  }
-
-  .info {
-      padding-right: 0px;
-  }
-
-  .icon i {
-    font-size: 28px;
-    padding-top: 12px;
-  }
-
-  .po {
-      font-size: 9px;
-      height: 35px;
-    width: 37%;
+@media only screen and (min-width: 180px) and (max-width: 1024px) {
+  
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     
-  }
+    .form-arrangement {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .qwe {
+        padding-left: 0px;
+    }
+    
+
+    .main-header {
+        padding-bottom: 0px;
+    }
+
+    .forms {
+        padding-top: 0px;
+    }
+
+    .form-arrangement {
+        width: 100%;
+    }
+
+    .info {
+      padding-right: 0px;
+      width: 100%;
+    }
+
+    .qwe {
+        width: 100%;
+    }
+
+    .payment {
+        width: 100%;
+    }
+
+    .asd {
+        padding-right: 0px;
+    }
+
+    .mnbv {
+        padding-top: 30px;
+    }
+
+    .expiry {
+        padding-top: 0px;
+    }
+
+    .zxcv {
+        padding-top: 15px;
+    }
+
+    .card-exp {
+        justify-content: flex-start;
+    }
+
+    .cvv {
+        padding-left: 43px;
+    }
+
+  
 }
 
 
