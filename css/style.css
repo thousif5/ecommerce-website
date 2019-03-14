@@ -6,9 +6,7 @@ body {
 
 .main-title {
     display: flex;
-    text-align: center;
-
-    
+    text-align: center;    
 }
 
 a {
@@ -63,7 +61,7 @@ a:link {
     /* height: 45vh; */
 }
 
-.container-1 {
+.container {
     padding-left: 171px;
     padding-right: 171px;
     padding-bottom: 50px;
@@ -104,11 +102,6 @@ a:link {
     /* height: 45vh; */
 }
 
-.container-2 {
-    padding-left: 171px;
-    padding-right: 171px;
-    padding-bottom: 50px;
-}
 
 .img-title-f {
     top: 311px;
@@ -127,7 +120,7 @@ a:link {
 }
 
 
-.box2 {
+.t-shirts-box {
     display: flex;
     padding-left: 171px;
     padding-right: 171px;
@@ -137,14 +130,10 @@ a:link {
 .mts-img img {
     object-position: 50% 0%;
     object-fit: cover;
-    height: 45vh;
+    height: 280px;
     width: 713px;
 }
 
-.mts-img {
-    
-    
-}
 
 .mts-title {
     top: 311px;
@@ -164,14 +153,11 @@ a:link {
 
 .lts-img img {
     object-fit: cover;
-    height: 45vh;
+    height: 280px;
     width: 713px;
     
 }
 
-.lts-img {
-
-}
 
 .lts-title {
     top: 311px;
@@ -222,7 +208,7 @@ a:link {
           display: none;
       }
 
-      .container-1 {
+      .container {
           padding-left: 0px;
           padding-right: 0px;
       }
@@ -241,10 +227,7 @@ a:link {
           width: 97vw;
       }
 
-      .container-2 {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+      
 
     .img-f img {
         object-fit: cover;
@@ -252,7 +235,7 @@ a:link {
         width: 97vw;
     }
 
-    .box2 {
+    .t-shirts-box {
         padding-left: 0px;
         padding-right: 0px;
     }

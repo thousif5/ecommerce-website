@@ -21,7 +21,7 @@ a:link {
 }
 
 .main-header {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 header {
@@ -58,8 +58,6 @@ input {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-    padding-top: 20px;
 }
 
 .title-c {
